@@ -1,13 +1,13 @@
-# sendgrid-php-example
+# sendgridjp-php-example
 
-This is an example of using the [SendGrid php library](https://github.com/sendgrid/sendgrid-php).
+ 本サンプルコードはSendGrid PHPライブラリの使い方を示すものです。This is an example of using the [SendGrid php library](https://github.com/sendgrid/sendgrid-php).
 
-## Usage
+## 使い方
 
 ```bash
-git clone http://github.com/scottmotte/sendgrid-php-example.git
-cd sendgrid-php-example
-cp .env.example .env # change the values in .env
+git clone http://github.com/sendgridjp/sendgridjp-php-example.git
+cd sendgridjp-php-example
+cp .env.example .env #  .nevファイルを編集してください
 composer install
 php -f sendgrid-php-example.php
 php -f smtp-php-example.php
