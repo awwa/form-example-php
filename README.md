@@ -1,6 +1,6 @@
 # sendgridjp-php-example
 
- 本サンプルコードはSendGrid PHPライブラリの使い方を示すものです。This is an example of using the [SendGrid php library](https://github.com/sendgrid/sendgrid-php).
+ 本コードは[SendGrid公式PHPライブラリ](https://github.com/sendgrid/sendgrid-php)の利用サンプルです。
 
 ## 使い方
 
