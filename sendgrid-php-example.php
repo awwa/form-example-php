@@ -12,7 +12,6 @@ $email    = new SendGrid\Email();
 $email->setTos($tos)->
        setFrom($from)->
        setFromName('送信者名')->
-       addBcc('awwa500@docomo.ne.jp')->
        setSubject('[sendgrid-php-example] フクロウのお名前は%fullname%さん')->
        setText('%familyname% さんは何をしていますか？\r\n 彼は%place%にいます。')->
        setHtml('<strong> %familyname% さんは何をしていますか？</strong><br />彼は%place%にいます。')->
