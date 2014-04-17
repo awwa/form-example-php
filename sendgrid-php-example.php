@@ -11,10 +11,10 @@ $sendgrid = new SendGrid($sendgrid_username, $sendgrid_password, array("turn_off
 $email    = new SendGrid\Email();
 $email->setTos($tos)->
        setFrom($from)->
-       setFromName('送信者名')->
-       setSubject('[sendgrid-php-example] フクロウのお名前は%fullname%さん')->
-       setText('%familyname% さんは何をしていますか？\r\n 彼は%place%にいます。')->
-       setHtml('<strong> %familyname% さんは何をしていますか？</strong><br />彼は%place%にいます。')->
+       setFromName("送信者名")->
+       setSubject("[sendgrid-php-example] フクロウのお名前は%fullname%さん")->
+       setText("%familyname% さんは何をしていますか？\r\n 彼は%place%にいます。")->
+       setHtml("<strong> %familyname% さんは何をしていますか？</strong><br />彼は%place%にいます。")->
        addSubstitution("%fullname%", array("田中 太郎", "佐藤 次郎", "鈴木 三郎"))->
        addSubstitution("%familyname%", array("田中", "佐藤", "鈴木"))->
        addSubstitution("%place%", array("%office%", "%home%", "%office%"))->
