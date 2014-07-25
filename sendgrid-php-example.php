@@ -20,7 +20,7 @@ $email->setTos($tos)->
        addSubstitution("%place%", array("%office%", "%home%", "%office%"))->
        addSection('%office%', '中野')->
        addSection('%home%', '目黒')->
-       addCategory('カテゴリ1')->
+       addCategory('category1')->
        addHeader('X-Sent-Using', 'SendGrid-API')->
        addAttachment('./gif.gif', 'owl.gif');
 
