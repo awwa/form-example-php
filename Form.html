@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>問合せフォームサンプル</title>
+<link rel="stylesheet" href="Form.css" />
+</head>
+<body>
+
+<!-- 問合せフォーム ▼ここから▼ -->
+<div class="section-page-landing" id="contact">
+	<div class="inner-section">
+		<div class="contain">
+		<center><h2>問合せフォーム</h2>
+		<form class="contact" action="mailer.php" method="post">
+
+		<!-- 入力項目をカスタマイズする場合は以下を変更します。mailer.phpのPOSTフィールドも合わせて変更してください。 -->
+		<p>Name:</p>
+		<input type="text" name="name" />
+
+		<p>E-mail:</p>
+		<input type="text" name="email" />
+
+		<p>Subject:</p>
+		<input type="text" name="subject" />
+
+		<p>Message:</p>
+		<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
+
+		<input class="send" type="submit" value="Send"> <!-- Send button-->
+		</form>
+		</center>
+		</div>
+	</div>
+</div>
+<!-- 問合せフォーム ▲ここまで▲ -->
+
+</body>
+</html>
+
+

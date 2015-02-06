@@ -1,5 +1,5 @@
 {
-  "name": "sendgrid-php-example",
+  "name": "sendgrid-php-example-contact-form",
   "description": "Example of using the SendGrid php library.",
   "version": "0.0.1",
   "homepage": "http://github.com/scottmotte/sendgrid-php-example",
