@@ -23,7 +23,7 @@ $email->addTo($to)->
        addCategory('contact');
 
 $response = $sendgrid->send($email);
-var_dump($response);
+//var_dump($response);
 
 // 正常終了時にthanks.htmlへリダイレクト
 header('Location: thanks.html');
