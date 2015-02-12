@@ -24,7 +24,7 @@ FROM=you@youremail.com
 ```
 SENDGRID_USERNAME:SendGridのユーザ名を指定してください。  
 SENDGRID_PASSWORD:SendGridのパスワードを指定してください。  
-TOS:フォームの内容を送信する宛先を指定してください。  
+TO:フォームの内容を送信する宛先を指定してください。  
 FROM:フォームの内容を送信する際のFromアドレスを指定してください。  
 
 
